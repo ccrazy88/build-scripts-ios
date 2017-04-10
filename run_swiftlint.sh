@@ -7,5 +7,5 @@
 if which swiftlint >/dev/null; then
     swiftlint
 else
-    echo "[warning] cannot run swiftlint because it isn't installed"
+    echo "warning: Cannot run SwiftLint because it isn't installed."
 fi
